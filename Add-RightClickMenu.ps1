@@ -1,7 +1,7 @@
 $menuName = "Resizing StarRail"
 $scriptPath = "C:\dev\scripts\Resize-Window.ps1"
 
-$regPath = "HKCR:\Directory\Background\shell\ResizeStarRail"
+$regPath = "Registry::HKEY_CLASSES_ROOT\Directory\Background\shell\ResizeStarRail"
 $commandPath = "$regPath\command"
 
 if (-not (Test-Path $regPath)) {
